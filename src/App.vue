@@ -97,7 +97,7 @@ export default {
 }
 
 body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -220,14 +220,14 @@ aside {
   border-radius: 50%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .name {
     font-size: 0.9rem;
   }
 
   .image-container {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
 
   .nav-items {
@@ -252,6 +252,13 @@ aside {
 
   .social-icon {
     font-size: 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-container {
+    width: 250px;
+    height: 250px;
   }
 }
 </style>
